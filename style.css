@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  background-color: #d84315;
+}
+
+.container {
+  background-color: #fff;
+  padding: 25px 45px;
+  border-radius: 15px;
+}
+
+form {
+  margin: 8px 10px;
+}
+
+form select,
+button,
+option,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+form input {
+  border: 1px solid #e2e2e2;
+  font-size: 24px;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* .From p{
+    margin-bottom: -12px;
+}
+
+.To p{
+    margin-bottom: -12px;
+} */
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 5px;
+  border-radius: 9px;
+  border: 1px solid #e2e2e2;
+}
+
+.select-container img {
+  width: 2rem;
+}
+
+.select-container select {
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.dropdown i {
+  margin-top: 33px;
+  font-size: 25px;
+}
+
+.msg {
+
+    margin: 38px 8px;
+}
+
+.btn button{
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4527A0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
