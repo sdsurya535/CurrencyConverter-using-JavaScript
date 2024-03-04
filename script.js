@@ -222,4 +222,4 @@ window.addEventListener("load", () => {
 button.addEventListener("click", (element) => {
   element.preventDefault();
   qualityExchange();
-});
+})
